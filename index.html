@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- js for min max validation -->
+    <script src="js/validation.js"></script>
+    <title>Beep-Online Shopping</title>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+	        <nav class="navbar navbar-light">
+	        <a class="navbar-brand" href="#">
+	            <img src="media/beep-1@2x.png" height="60px" alt="">
+	        </a>
+	            <div class="navbar-header pull-right">
+	                <button type="button" class="btn btn-default navbar-btn"><img src="media/Icon material-notifications-none@2x.png" height="20px"></button>
+	                <button type="button" class="btn btn-default navbar-btn"><img src="media/profile_close_2.png"/>My Profile</button>
+	                <button type="button" class="btn btn-default navbar-btn"><img src="media/bag_3.png"> 0 items</button>
+	                <button type="button" class="btn btn-default navbar-btn"><img src="media/search-icon.png"></button>
+	            </div>
+	    	</nav>
+	    </header>	    
+	    <div class="row">
+	    	<div class="container">
+		        <div class="col-md-4" style="float:left; margin-top: 30px;">
+		            <span>Home </span>
+		            <span style="color:#C1C8CE"> /</span>
+		            <span style="color: #22262A; font-size: 14px; ">Accesories</span>
+		        </div>
+		    </div>
+            <div class="col-4">
+
+              <div class="categories">
+                  <div class="title text-uppercase">All Categories</div>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="btn btn-light bg-white btn-md active-link" >Accesories</a></li>
+                    <li><a href="#" class="btn btn-light bg-white btn-md" >Cables & Docks</a></li>
+                    <li><a href="#" class="btn btn-light bg-white btn-md" >Cases & Films</a></li>
+                    <li><a href="#" class="btn btn-light bg-white btn-md" >Charging Devices</a></li>
+                    <li><a href="#" class="btn btn-light bg-white btn-md" >Headphones</a></li>
+                    </ul>
+              </div>
+              <div class="space-24"></div>
+                <div class="categories">
+                    <div class="title text-uppercase">Prices</div>
+                    <p>Max <span class="tab"> Min </p>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="$499">
+                            </div>
+                            ~
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="$499">
+                            </div>
+                        </div>
+                </div> 
+                <div class="space-24"></div>
+                <div class="categories">
+                    <div class="title text-uppercase">color</div>
+                    <br>
+                    <span class="dot" style="background-color: blue;"></span>
+                    <span class="dot" style="background-color: red;"></span>
+                    <span class="dot" style="background-color: black;"></span>
+                    <span class="dot" style="background-color: yellow;"></span>
+                    <span class="dot" style="background-color: pink;"></span>
+                    <span class="dot" style="background-color: grey;"></span>
+                </div>  
+                <div class="space-24"></div> 
+                <div class="categories">
+                    <div class="title text-uppercase">brand</div>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="btn btn-light bg-white btn-md full-width active-link" ><p class="left-aligned">Apple</p><p class="right-aligned">99</p></a></li>
+                      <li><a href="#" class="btn btn-light bg-white btn-md full-width" ><p class="left-aligned">Beats</p><p class="right-aligned">99</p></a></li>
+                      <li><a href="#" class="btn btn-light bg-white btn-md full-width" ><p class="left-aligned">Samsung</p><p class="right-aligned">99</p></a></li>
+                      <li><a href="#" class="btn btn-light bg-white btn-md full-width" ><p class="left-aligned">Siemens</p><p class="right-aligned">99</p></a></li>
+                      </ul>
+                </div>
+                <div class="space-24"></div>
+                <div class="categories">
+                    <div class="text-center text-uppercase active-link">more</div>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <!-- <div class="carousel-item active"> -->
+                    <div class="banner">
+                        <div class="col-6 banner-txt">
+                            <br>
+                            <h2>iPhone 8</h2>
+                            <br>
+                            <p>Performance and Design. Taken right</p>
+                            <p>to the edge.</p>
+                            <br>
+                            <a class="btn-banner">Shop now</a>
+                        </div>
+                        <div class="col-6">
+                            <img class="d-block w-100" style="height: -webkit-fill-available;" src="media/pic@2x.png" alt="First slide">
+                        </div>
+                    </div>
+                    <div class="space-24"></div>
+                    <div class="filter">
+                        13 Items
+                        <span class="tab"></span>
+                         Sort By:
+                         <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Name
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Price</a>
+                              <a class="dropdown-item" href="#">Relevance</a>
+                              <a class="dropdown-item" href="#">Popularity</a>
+                            </div>
+                          </div>
+                        <span class="tab"></span>
+                        Show:
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              12
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">10</a>
+                              <a class="dropdown-item" href="#">20</a>
+                              <a class="dropdown-item" href="#">50</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="space-24"></div> 
+                    <div class="card-deck">
+                        <!-- 1 -->
+                        <div class="card">
+                          <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                          <div class="card-body">
+                            <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="far fa-star"></span>
+                            <div class="price">
+                                <p class="red-text">$499</p>
+                                <p class="cancelled-text">$599</p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="card">
+                            <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                            <div class="card-body">
+                              <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <div class="price">
+                                  <p class="red-text">$499</p>
+                                  <p class="cancelled-text">$599</p>
+                              </div>
+                            </div>
+                          </div>
+                        <!-- 3 -->
+                        <div class="card">
+                            <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                            <div class="card-body">
+                              <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <div class="price">
+                                  <p class="red-text">$499</p>
+                                  <p class="cancelled-text">$599</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="w-100 space-24"></div>
+                          <!-- 4 -->
+                          <div class="card">
+                            <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                            <div class="card-body">
+                              <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <div class="price">
+                                  <p class="red-text">$499</p>
+                                  <p class="cancelled-text">$599</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 5 -->
+                          <div class="card">
+                            <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                            <div class="card-body">
+                              <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <div class="price">
+                                  <p class="red-text">$499</p>
+                                  <p class="cancelled-text">$599</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 6 -->
+                          <div class="card">
+                            <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                            <div class="card-body">
+                              <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <div class="price">
+                                  <p class="red-text">$499</p>
+                                  <p class="cancelled-text">$599</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="w-100 space-24"></div>
+                          <!-- 7 -->
+                        <div class="card">
+                            <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                            <div class="card-body">
+                              <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star"></span>
+                              <div class="price">
+                                  <p class="red-text">$499</p>
+                                  <p class="cancelled-text">$599</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 8 -->
+                          <div class="card">
+                              <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                              <div class="card-body">
+                                <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <div class="price">
+                                    <p class="red-text">$499</p>
+                                    <p class="cancelled-text">$599</p>
+                                </div>
+                              </div>
+                            </div>
+                          <!-- 9 -->
+                          <div class="card">
+                              <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                              <div class="card-body">
+                                <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <div class="price">
+                                    <p class="red-text">$499</p>
+                                    <p class="cancelled-text">$599</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="w-100 space-24"></div>
+                            <!-- 10 -->
+                            <div class="card">
+                              <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                              <div class="card-body">
+                                <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <div class="price">
+                                    <p class="red-text">$499</p>
+                                    <p class="cancelled-text">$599</p>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 11 -->
+                            <div class="card">
+                              <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                              <div class="card-body">
+                                <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <div class="price">
+                                    <p class="red-text">$499</p>
+                                    <p class="cancelled-text">$599</p>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 12 -->
+                            <div class="card">
+                              <img class="card-img-top" src="media/Rectangle 5.png" alt="Card image cap">
+                              <div class="card-body">
+                                <a href='#'><h5 class="card-title">Beats Solo2 On ear Headphones</h5></a> 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <div class="price">
+                                    <p class="red-text">$499</p>
+                                    <p class="cancelled-text">$599</p>
+                                </div>
+                              </div>
+                            </div>
+
+                    </div>
+                    <div class="space-24"></div> 
+                    <!-- <div class="page-numbers"> -->
+                        <ul class="list-inline" id="page-numbers">
+                            <li class="list-inline-item">1</li>
+                            <li class="list-inline-item">2</li>
+                            <li class="list-inline-item activ">3</li>
+                            <li class="list-inline-item">4</li>
+                            <li class="list-inline-item">5</li>
+                        </ul>
+                    <!-- </div> -->
+                    </div>
+                  </div>
+            </div>
+          </div>
+         </div>
+	</div>
+	<footer>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <img class="beep" src="media/beep@2x.png" alt="beep">
+
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+
+
+                    <h1>Follow Us</h1>
+
+                    <p>Since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    
+                    <div style="position: absolute; right: 270px;">
+
+
+                    <a href="#"><img src="media/facebook.png" alt="fb"></a>
+                    <a href="#"><img src="media/twitter.png" alt="twitter"></a>
+
+                	</div>
+
+
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <h1>Contact Us</h1>
+                    <p>My Company,4578 Marmora Road,Glasgow<br>D0489GR<br>Call us
+                        now:0123-456-789<br>Email:support@whatever.com</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <section class="end">
+
+        <div class="container">
+
+            <p style="color: #C1C8CE;">2021 Ecommerce site by www.beep.com</p>
+
+            <ul>
+                <li><img src="media/Western-union.png" alt="..."></li>
+
+                <li><img src="media/Group%2019.png" alt="..."></li>
+
+                <li><img src="media/Paypal.png" alt="..."></li>
+
+                <li><img src="media/Shape%20327.png" alt="..."></li>
+
+            </ul>
+
+        </div>
+    </section>
+</body>
+</html>
